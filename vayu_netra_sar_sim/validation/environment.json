@@ -1,0 +1,131 @@
+{
+  "checks": [
+    {
+      "check": "Host",
+      "passed": false,
+      "detail": "Windows-10-10.0.26200-SP0",
+      "fix": "Use Ubuntu24.04 x86_64; software tests can run elsewhere"
+    },
+    {
+      "check": "Ubuntu24.04",
+      "passed": false,
+      "detail": "",
+      "fix": ""
+    },
+    {
+      "check": "Python",
+      "passed": false,
+      "detail": "3.11.7",
+      "fix": "Use /usr/bin/python3 on Ubuntu24.04"
+    },
+    {
+      "check": "ROS_DISTRO",
+      "passed": false,
+      "detail": "unset",
+      "fix": "source /opt/ros/jazzy/setup.bash"
+    },
+    {
+      "check": "colcon",
+      "passed": false,
+      "detail": "missing",
+      "fix": "Run ./setup.sh"
+    },
+    {
+      "check": "ros2",
+      "passed": false,
+      "detail": "missing",
+      "fix": "Run ./setup.sh"
+    },
+    {
+      "check": "gz",
+      "passed": false,
+      "detail": "missing",
+      "fix": "Run ./setup.sh"
+    },
+    {
+      "check": "cmake",
+      "passed": false,
+      "detail": "missing",
+      "fix": "Run ./setup.sh"
+    },
+    {
+      "check": "git",
+      "passed": true,
+      "detail": "C:\\Program Files\\Git\\cmd\\git.EXE",
+      "fix": "Run ./setup.sh"
+    },
+    {
+      "check": "Gazebo Harmonic",
+      "passed": false,
+      "detail": "[WinError 2] The system cannot find the file specified",
+      "fix": "Install gz-harmonic and ros-jazzy-ros-gzharmonic"
+    },
+    {
+      "check": "Harmonic ROS integration",
+      "passed": false,
+      "detail": "[WinError 2] The system cannot find the file specified",
+      "fix": "sudo apt install ros-jazzy-ros-gzharmonic"
+    },
+    {
+      "check": "ROS rclpy",
+      "passed": false,
+      "detail": "[WinError 2] The system cannot find the file specified",
+      "fix": "Run ./build.sh and source install/setup.bash"
+    },
+    {
+      "check": "ROS px4_msgs",
+      "passed": false,
+      "detail": "[WinError 2] The system cannot find the file specified",
+      "fix": "Run ./build.sh and source install/setup.bash"
+    },
+    {
+      "check": "ROS vayu_netra_sim",
+      "passed": false,
+      "detail": "[WinError 2] The system cannot find the file specified",
+      "fix": "Run ./build.sh and source install/setup.bash"
+    },
+    {
+      "check": "ROS ros_gz_bridge",
+      "passed": false,
+      "detail": "[WinError 2] The system cannot find the file specified",
+      "fix": "Run ./build.sh and source install/setup.bash"
+    },
+    {
+      "check": "ROS cv_bridge",
+      "passed": false,
+      "detail": "[WinError 2] The system cannot find the file specified",
+      "fix": "Run ./build.sh and source install/setup.bash"
+    },
+    {
+      "check": "Pinned message contract",
+      "passed": false,
+      "detail": "px4 source missing at C:\\Users\\Rushikesh Tonpe\\Dropbox\\PC\\Documents\\ChatGPT\\SIH 2026\\vayu_netra_sar_sim\\vendor\\PX4-Autopilot. Run ./setup.sh on Ubuntu24.04.",
+      "fix": "Run ./setup.sh in a clean extracted folder; do not reset user repositories"
+    },
+    {
+      "check": "PX4 binary",
+      "passed": false,
+      "detail": "C:\\Users\\Rushikesh Tonpe\\Dropbox\\PC\\Documents\\ChatGPT\\SIH 2026\\vayu_netra_sar_sim\\vendor\\PX4-Autopilot\\build\\px4_sitl_default\\bin\\px4",
+      "fix": "Run ./build.sh"
+    },
+    {
+      "check": "XRCE Agent2.4.3",
+      "passed": false,
+      "detail": "C:\\Users\\Rushikesh Tonpe\\Dropbox\\PC\\Documents\\ChatGPT\\SIH 2026\\vayu_netra_sar_sim\\vendor\\agent-install\\bin\\MicroXRCEAgent",
+      "fix": "Run ./build.sh"
+    },
+    {
+      "check": "Display",
+      "passed": false,
+      "detail": "False",
+      "fix": "Use a logged-in Ubuntu desktop, or VAYU_HEADLESS=1 ./run_demo.sh --headless; rendering still needs EGL/OpenGL"
+    },
+    {
+      "check": "GPU diagnostic",
+      "passed": false,
+      "detail": "glxinfo unavailable; install mesa-utils for renderer diagnosis",
+      "required": false
+    }
+  ],
+  "apt_versions": "[WinError 2] The system cannot find the file specified"
+}

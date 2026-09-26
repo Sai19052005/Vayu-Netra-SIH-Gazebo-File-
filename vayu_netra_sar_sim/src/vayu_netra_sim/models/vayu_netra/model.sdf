@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<sdf version="1.9"><model name="vayu_netra">
+<include merge="true"><uri>model://x500</uri></include>
+<link name="sar_camera_link"><pose>0 0 -0.12 0 1.57079632679 0</pose>
+<inertial><mass>0.03</mass><inertia><ixx>0.00001</ixx><iyy>0.00001</iyy><izz>0.00001</izz></inertia></inertial>
+<visual name="payload"><geometry><box><size>.07 .08 .05</size></box></geometry><material><ambient>0 .7 .7 1</ambient><diffuse>0 .7 .7 1</diffuse></material></visual>
+<sensor name="sar_rgbd" type="rgbd_camera"><always_on>true</always_on><update_rate>10</update_rate><topic>/vayu/camera</topic>
+<camera><horizontal_fov>1.3962634</horizontal_fov><image><width>640</width><height>480</height><format>R8G8B8</format></image><clip><near>.1</near><far>50</far></clip><depth_camera><clip><near>.2</near><far>50</far></clip></depth_camera></camera></sensor></link>
+<joint name="sar_camera_mount" type="fixed"><parent>base_link</parent><child>sar_camera_link</child></joint>
+</model></sdf>

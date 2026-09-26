@@ -1,0 +1,39 @@
+{
+  "quick": {
+    "status": "COMPLETE",
+    "duration_sim_s": 128.20000000000002,
+    "distance_m": 228.05837448826395,
+    "coverage_estimate": 1.0,
+    "priority_counts": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 9,
+      "P3": 2,
+      "P4": 1,
+      "UNASSESSED": 0
+    },
+    "validation_scope": "PURE_PYTHON_KINEMATIC_FIXTURE_NOT_ROS_PX4_GAZEBO",
+    "detections": 12,
+    "reinspections": 3
+  },
+  "full": {
+    "status": "COMPLETE",
+    "duration_sim_s": 201.20000000000002,
+    "distance_m": 373.2970798299751,
+    "coverage_estimate": 1.0,
+    "priority_counts": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 9,
+      "P3": 2,
+      "P4": 1,
+      "UNASSESSED": 0
+    },
+    "validation_scope": "PURE_PYTHON_KINEMATIC_FIXTURE_NOT_ROS_PX4_GAZEBO",
+    "detections": 12,
+    "reinspections": 3
+  },
+  "pytest": "..................ss.........                                            [100%]\n27 passed, 2 skipped in 1.59s",
+  "target_runtime": "NOT EXECUTED: authoring host Windows; no Ubuntu/WSL/ROS/Gazebo/PX4 runtime available",
+  "syntax": "Python AST and XML parse passed; XML parse is not Gazebo SDF validation"
+}

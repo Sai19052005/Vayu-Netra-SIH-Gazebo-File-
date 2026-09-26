@@ -1,0 +1,37 @@
+{
+  "scope": "PC REAL PIXEL INFERENCE WITH NUMPY IMAGE TRANSPORT; NOT ROS, GAZEBO OR JETSON VALIDATION",
+  "image": "000000000036.jpg",
+  "model_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "observations": [
+    {
+      "schema_version": 1,
+      "id": "YOLO_TRACK_00001",
+      "observation_id": "YOLO_TRACK_00001:1",
+      "class": "person",
+      "confidence": 0.8989840149879456,
+      "timestamp": 0.0,
+      "bbox": [
+        173.88922119140625,
+        158.22735595703125,
+        462.01470947265625,
+        639.5601806640625
+      ],
+      "uav_pose": [
+        0,
+        0,
+        0
+      ],
+      "local_position": null,
+      "position_method": "UNAVAILABLE",
+      "source": "REAL_YOLO_INFERENCE_RGB",
+      "sensor_source": "REAL_RGB_TEST_IMAGE",
+      "context": null,
+      "context_source": null,
+      "thermal": null,
+      "depth": {
+        "associated": false
+      },
+      "inference_ms": 4154.604399984237
+    }
+  ]
+}

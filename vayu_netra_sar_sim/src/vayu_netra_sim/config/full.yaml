@@ -1,0 +1,254 @@
+{
+  "origin": [
+    18.5204,
+    73.8567,
+    560.0
+  ],
+  "mission": {
+    "search_min_x": -17,
+    "search_max_x": 17,
+    "search_min_y": -13,
+    "search_max_y": 13,
+    "search_spacing": 4,
+    "search_altitude": 12,
+    "search_speed": 2,
+    "waypoint_tolerance": 0.7,
+    "reinspection_radius": 2.5,
+    "reinspection_timeout": 35,
+    "state_timeout": 60,
+    "feedback_timeout": 2,
+    "mission_timeout": 720,
+    "rtl_battery": 0.25,
+    "reinspect_priorities": [
+      "P0",
+      "P1"
+    ]
+  },
+  "perception": {
+    "confidence_threshold": 0.25,
+    "classes": [
+      "person",
+      "fire",
+      "smoke",
+      "flood",
+      "debris",
+      "structure",
+      "power_line"
+    ],
+    "width": 640,
+    "height": 480,
+    "hfov": 1.3962634,
+    "model_path": "",
+    "max_pose_age": 0.3,
+    "max_depth_age": 0.1
+  },
+  "triage": {
+    "weights": {
+      "hazard_severity": 0.45,
+      "victim_context": 0.3,
+      "accessibility_risk": 0.25
+    },
+    "thresholds": {
+      "P0": 0.85,
+      "P1": 0.65,
+      "P2": 0.45,
+      "P3": 0.25
+    }
+  },
+  "scene": {
+    "obstacle_ceiling": 7,
+    "restricted_zones": [
+      [
+        19,
+        25,
+        -5,
+        5
+      ]
+    ],
+    "targets": [
+      {
+        "id": "SURVIVOR_01",
+        "class": "person",
+        "position": [
+          -10,
+          -9,
+          0.8
+        ],
+        "context": {
+          "hazard_severity": 0.9,
+          "victim_context": 0.9,
+          "accessibility_risk": 0.9
+        },
+        "review_context": {
+          "hazard_severity": 0.6,
+          "victim_context": 0.4,
+          "accessibility_risk": 0.5
+        }
+      },
+      {
+        "id": "SURVIVOR_02",
+        "class": "person",
+        "position": [
+          0,
+          -9,
+          0.8
+        ],
+        "context": {
+          "hazard_severity": 0.8,
+          "victim_context": 0.7,
+          "accessibility_risk": 0.7
+        },
+        "review_context": {
+          "hazard_severity": 0.6,
+          "victim_context": 0.4,
+          "accessibility_risk": 0.5
+        }
+      },
+      {
+        "id": "SURVIVOR_03",
+        "class": "person",
+        "position": [
+          10,
+          -3,
+          0.8
+        ],
+        "context": {
+          "hazard_severity": 0.5,
+          "victim_context": 0.5,
+          "accessibility_risk": 0.6
+        }
+      },
+      {
+        "id": "SURVIVOR_04",
+        "class": "person",
+        "position": [
+          -9,
+          3,
+          0.8
+        ],
+        "context": {
+          "hazard_severity": 0.2,
+          "victim_context": 0.3,
+          "accessibility_risk": 0.4
+        }
+      },
+      {
+        "id": "SURVIVOR_05",
+        "class": "person",
+        "position": [
+          0,
+          9,
+          0.8
+        ],
+        "context": {
+          "hazard_severity": 0.0,
+          "victim_context": 0.1,
+          "accessibility_risk": 0.2
+        }
+      },
+      {
+        "id": "SURVIVOR_06",
+        "class": "person",
+        "position": [
+          10,
+          9,
+          0.8
+        ],
+        "context": {
+          "hazard_severity": 0.8,
+          "victim_context": 0.7,
+          "accessibility_risk": 0.8
+        },
+        "review_context": {
+          "hazard_severity": 0.6,
+          "victim_context": 0.4,
+          "accessibility_risk": 0.5
+        }
+      },
+      {
+        "id": "HAZARD_FIRE",
+        "class": "fire",
+        "position": [
+          -12,
+          -7,
+          0.3
+        ],
+        "context": {
+          "hazard_severity": 0.95,
+          "victim_context": 0,
+          "accessibility_risk": 0.6
+        }
+      },
+      {
+        "id": "HAZARD_SMOKE",
+        "class": "smoke",
+        "position": [
+          -9,
+          -7,
+          0.3
+        ],
+        "context": {
+          "hazard_severity": 0.8,
+          "victim_context": 0,
+          "accessibility_risk": 0.6
+        }
+      },
+      {
+        "id": "HAZARD_FLOOD",
+        "class": "flood",
+        "position": [
+          -5,
+          -9,
+          0.3
+        ],
+        "context": {
+          "hazard_severity": 0.7,
+          "victim_context": 0,
+          "accessibility_risk": 0.6
+        }
+      },
+      {
+        "id": "HAZARD_DEBRIS",
+        "class": "debris",
+        "position": [
+          9,
+          -4,
+          0.3
+        ],
+        "context": {
+          "hazard_severity": 0.5,
+          "victim_context": 0,
+          "accessibility_risk": 0.6
+        }
+      },
+      {
+        "id": "HAZARD_STRUCTURE",
+        "class": "structure",
+        "position": [
+          -9,
+          5,
+          0.3
+        ],
+        "context": {
+          "hazard_severity": 0.7,
+          "victim_context": 0,
+          "accessibility_risk": 0.6
+        }
+      },
+      {
+        "id": "HAZARD_POWER_LINE",
+        "class": "power_line",
+        "position": [
+          12,
+          9,
+          0.3
+        ],
+        "context": {
+          "hazard_severity": 0.85,
+          "victim_context": 0,
+          "accessibility_risk": 0.6
+        }
+      }
+    ]
+  }
+}

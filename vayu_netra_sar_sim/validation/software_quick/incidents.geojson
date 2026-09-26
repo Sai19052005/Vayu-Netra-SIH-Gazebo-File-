@@ -1,0 +1,246 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8567,
+          18.520318696376847,
+          560.8
+        ]
+      },
+      "properties": {
+        "id": "SURVIVOR_02",
+        "class": "person",
+        "priority": "P2",
+        "confidence": 0.9,
+        "source": "SIMULATED_PERCEPTION",
+        "timestamp": 48.0,
+        "position_method": "SCENARIO_ORACLE_NOT_MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8567,
+          18.52048130362315,
+          560.8
+        ]
+      },
+      "properties": {
+        "id": "SURVIVOR_05",
+        "class": "person",
+        "priority": "P4",
+        "confidence": 0.9,
+        "source": "SIMULATED_PERCEPTION",
+        "timestamp": 111.5,
+        "position_method": "SCENARIO_ORACLE_NOT_MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.85665265118196,
+          18.520318696376847,
+          560.3
+        ]
+      },
+      "properties": {
+        "id": "HAZARD_FLOOD",
+        "class": "flood",
+        "priority": "P2",
+        "confidence": 0.9,
+        "source": "SIMULATED_PERCEPTION",
+        "timestamp": 113.0,
+        "position_method": "SCENARIO_ORACLE_NOT_MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.85661477212753,
+          18.520336763848658,
+          560.3
+        ]
+      },
+      "properties": {
+        "id": "HAZARD_SMOKE",
+        "class": "smoke",
+        "priority": "P2",
+        "confidence": 0.9,
+        "source": "SIMULATED_PERCEPTION",
+        "timestamp": 60.5,
+        "position_method": "SCENARIO_ORACLE_NOT_MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.85660530236393,
+          18.520318696376847,
+          560.8
+        ]
+      },
+      "properties": {
+        "id": "SURVIVOR_01",
+        "class": "person",
+        "priority": "P2",
+        "confidence": 0.9,
+        "source": "SIMULATED_PERCEPTION",
+        "timestamp": 53.0,
+        "position_method": "SCENARIO_ORACLE_NOT_MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.85658636283671,
+          18.520336763848658,
+          560.3
+        ]
+      },
+      "properties": {
+        "id": "HAZARD_FIRE",
+        "class": "fire",
+        "priority": "P2",
+        "confidence": 0.9,
+        "source": "SIMULATED_PERCEPTION",
+        "timestamp": 58.0,
+        "position_method": "SCENARIO_ORACLE_NOT_MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.85678522787248,
+          18.520363865056375,
+          560.3
+        ]
+      },
+      "properties": {
+        "id": "HAZARD_DEBRIS",
+        "class": "debris",
+        "priority": "P3",
+        "confidence": 0.9,
+        "source": "SIMULATED_PERCEPTION",
+        "timestamp": 111.0,
+        "position_method": "SCENARIO_ORACLE_NOT_MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.85679469763608,
+          18.52037289879228,
+          560.8
+        ]
+      },
+      "properties": {
+        "id": "SURVIVOR_03",
+        "class": "person",
+        "priority": "P2",
+        "confidence": 0.9,
+        "source": "SIMULATED_PERCEPTION",
+        "timestamp": 110.5,
+        "position_method": "SCENARIO_ORACLE_NOT_MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.85661477212753,
+          18.520427101207716,
+          560.8
+        ]
+      },
+      "properties": {
+        "id": "SURVIVOR_04",
+        "class": "person",
+        "priority": "P3",
+        "confidence": 0.9,
+        "source": "SIMULATED_PERCEPTION",
+        "timestamp": 95.5,
+        "position_method": "SCENARIO_ORACLE_NOT_MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.85661477212753,
+          18.520445168679526,
+          560.3
+        ]
+      },
+      "properties": {
+        "id": "HAZARD_STRUCTURE",
+        "class": "structure",
+        "priority": "P2",
+        "confidence": 0.9,
+        "source": "SIMULATED_PERCEPTION",
+        "timestamp": 95.5,
+        "position_method": "SCENARIO_ORACLE_NOT_MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.85679469763608,
+          18.52048130362315,
+          560.8
+        ]
+      },
+      "properties": {
+        "id": "SURVIVOR_06",
+        "class": "person",
+        "priority": "P2",
+        "confidence": 0.9,
+        "source": "SIMULATED_PERCEPTION",
+        "timestamp": 109.5,
+        "position_method": "SCENARIO_ORACLE_NOT_MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8568136371633,
+          18.52048130362315,
+          560.3
+        ]
+      },
+      "properties": {
+        "id": "HAZARD_POWER_LINE",
+        "class": "power_line",
+        "priority": "P2",
+        "confidence": 0.9,
+        "source": "SIMULATED_PERCEPTION",
+        "timestamp": 110.0,
+        "position_method": "SCENARIO_ORACLE_NOT_MEASURED"
+      }
+    }
+  ],
+  "reference": "Simulated WGS84 small-area tangent approximation; not RTK"
+}

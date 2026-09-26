@@ -1,0 +1,10 @@
+{
+  "target": "Ubuntu 24.04 x86_64 / ROS 2 Jazzy / Gazebo Harmonic (gz-sim8)",
+  "px4": {"url": "https://github.com/PX4/PX4-Autopilot.git", "ref": "v1.17.0", "commit": "d6f12ad1c4f70ad3230afd7d86e971421e02fef4"},
+  "px4_msgs": {"url": "https://github.com/PX4/px4_msgs.git", "ref": "release/1.17", "commit": "86d8239e962f6939e05c3737784f60c02fa884db"},
+  "agent": {"url": "https://github.com/eProsima/Micro-XRCE-DDS-Agent.git", "ref": "v2.4.3", "commit": "73622810d984349b80bbac0ef55fc0b694d62222"},
+  "gazebo_models_commit": "b6127f4ec20de867e215fb5f78ae88b80f371909",
+  "ros_gazebo_deb": "ros-jazzy-ros-gzharmonic",
+  "apt_policy": "Use Jazzy/Noble repositories; record installed patch versions in validation/environment.json. Apt snapshot and complete dependency closure are not bundled.",
+  "validation_status": "PINNED_SOURCE_REVIEWED; TARGET_RUNTIME_NOT_EXECUTED_ON_AUTHORING_HOST"
+}

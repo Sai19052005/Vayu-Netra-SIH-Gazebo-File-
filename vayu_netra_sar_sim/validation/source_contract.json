@@ -1,0 +1,11 @@
+{
+  "VehicleStatus": true,
+  "VehicleLocalPosition": true,
+  "VehicleLandDetected": true,
+  "VehicleAttitude": true,
+  "BatteryStatus": true,
+  "VehicleCommandAck": true,
+  "VehicleCommand": true,
+  "TrajectorySetpoint": true,
+  "OffboardControlMode": true
+}
